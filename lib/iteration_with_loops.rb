@@ -6,4 +6,7 @@ def find_even_values(src)
     for k in 0..src[i].size do 
       if src[i][k] % 2 == 0 
         src[i][k]
+      end
+    end
+  end
 end
